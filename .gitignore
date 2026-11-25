@@ -1,0 +1,21 @@
+# Python / Environment
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.vscode/
+.idea/
+.DS_Store
+
+# Model weights & cache
+models/*.pt
+models/.cache/
+
+# Local datasets & raw data (kept locally, only .gitkeep tracked)
+data/*
+!data/.gitkeep
+data_trans/*
+!data_trans/.gitkeep
+
+# Local reports / temporary docs
+*.docx

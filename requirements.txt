@@ -1,0 +1,25 @@
+# =========================
+# Computer Vision / AI
+# =========================
+ultralytics
+opencv-python
+numpy
+
+# =========================
+# Machine Learning (Inference)
+# =========================
+scikit-learn
+joblib
+pandas
+
+# =========================
+# Web Application
+# =========================
+fastapi
+uvicorn[standard]
+pydantic
+
+# =========================
+# Testing
+# =========================
+pytest
